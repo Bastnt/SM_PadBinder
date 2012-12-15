@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1321561720 source:d:\documents\documents\ddr\pad disabler\gamepad.cpp
+	"gamepad.h"
+
+1319648666 d:\documents\documents\ddr\pad disabler\gamepad.h
+	<iostream>
+	<dinput.h>
+	<string>
+
+1274305020 c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h
+	<objbase.h>
+
+1322680615 source:d:\documents\documents\ddr\pad disabler\main.cpp
+	<iostream>
+	<fstream>
+	<pthread.h>
+	<winsock2.h>
+	"Gamepad.h"
+	"KBSend.h"
+
+1166630128 c:\program files (x86)\pthread\pre-built.2\include\pthread.h
+	<windows.h>
+	"config.h"
+	<time.h>
+	<signal.h>
+	<setjmp.h>
+	<limits.h>
+	"need_errno.h"
+	<errno.h>
+	<sched.h>
+	<sys/types.h>
+
+1166630128 c:\program files (x86)\pthread\pre-built.2\include\sched.h
+	"need_errno.h"
+	<errno.h>
+	<sys/types.h>
+	<time.h>
+
+1320339448 d:\documents\documents\ddr\pad disabler\kbsend.h
+	<windows.h>
+
+1321561054 source:d:\documents\documents\ddr\pad disabler\kbsend.cpp
+	"KBSend.h"
+

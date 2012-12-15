@@ -1,0 +1,86 @@
+# depslib dependency file v1.0
+1319662983 source:c:\users\bastnt\desktop\sm launcher\main.cpp
+	<iostream>
+	<fstream>
+	"Gamepad.h"
+	"KBSend.h"
+
+1274305020 c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h
+	<objbase.h>
+
+1319648666 c:\users\bastnt\desktop\sm launcher\gamepad.h
+	<iostream>
+	<dinput.h>
+	<string>
+
+1319659812 source:c:\users\bastnt\desktop\sm launcher\gamepad.cpp
+	"gamepad.h"
+
+1319751964 c:\users\bastnt\desktop\sm launcher\kbsend.h
+	<windows.h>
+
+1319644584 source:c:\users\bastnt\desktop\sm launcher\kbsend.cpp
+	"KBSend.h"
+
+1321561720 source:f:\ddr\sm launcher\gamepad.cpp
+	"gamepad.h"
+
+1319648666 f:\ddr\sm launcher\gamepad.h
+	<iostream>
+	<dinput.h>
+	<string>
+
+1321561054 source:f:\ddr\sm launcher\kbsend.cpp
+	"KBSend.h"
+
+1320339448 f:\ddr\sm launcher\kbsend.h
+	<windows.h>
+
+1321563002 source:f:\ddr\sm launcher\main.cpp
+	<iostream>
+	<fstream>
+	<pthread.h>
+	<winsock2.h>
+	"Gamepad.h"
+	"KBSend.h"
+
+1166630128 c:\program files (x86)\pthread\pre-built.2\include\pthread.h
+	<windows.h>
+	"config.h"
+	<time.h>
+	<signal.h>
+	<setjmp.h>
+	<limits.h>
+	"need_errno.h"
+	<errno.h>
+	<sched.h>
+	<sys/types.h>
+
+1166630128 c:\program files (x86)\pthread\pre-built.2\include\sched.h
+	"need_errno.h"
+	<errno.h>
+	<sys/types.h>
+	<time.h>
+
+1321561720 source:d:\documents\documents\ddr\sm launcher\gamepad.cpp
+	"gamepad.h"
+
+1319648666 d:\documents\documents\ddr\sm launcher\gamepad.h
+	<iostream>
+	<dinput.h>
+	<string>
+
+1321563398 source:d:\documents\documents\ddr\sm launcher\main.cpp
+	<iostream>
+	<fstream>
+	<pthread.h>
+	<winsock2.h>
+	"Gamepad.h"
+	"KBSend.h"
+
+1320339448 d:\documents\documents\ddr\sm launcher\kbsend.h
+	<windows.h>
+
+1321561054 source:d:\documents\documents\ddr\sm launcher\kbsend.cpp
+	"KBSend.h"
+

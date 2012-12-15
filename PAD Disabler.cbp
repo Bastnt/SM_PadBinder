@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PAD Disabler" />
+		<Option platforms="Windows;" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\PAD Disabler" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\PAD Disabler" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" />
+			<Add directory="C:\Program Files (x86)\PThread\Pre-built.2\include" />
+		</Compiler>
+		<Linker>
+			<Add library="C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\dinput8.lib" />
+			<Add library="C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\dxguid.lib" />
+			<Add library="C:\Program Files (x86)\PThread\Pre-built.2\lib\libpthreadGCE2.a" />
+			<Add library="C:\Program Files (x86)\PThread\Pre-built.2\lib\pthreadGCE2.dll" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libws2_32.a" />
+		</Linker>
+		<Unit filename="KBSend.cpp" />
+		<Unit filename="KBSend.h" />
+		<Unit filename="gamepad.cpp" />
+		<Unit filename="gamepad.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
